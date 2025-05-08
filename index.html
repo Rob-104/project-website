@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Senior Design Project</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
 </head>
 <body>
   <header>
     <h1>NetCommand: Simplifying Network Configuration</h1>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="#overview">Project Overview</a>
+      <a href="#prototype">Prototype</a>
       <a href="team.html">Meet the Team</a>
       <a href="docs/ExecutiveSummary.pdf" target="_blank">Executive Summary</a>
       <a href="docs/ProblemStatement.pdf" target="_blank">Problem Statement</a>
@@ -20,12 +22,14 @@
   </header>
 
   <main>
-    <section class="project-summary">
+    <section id="overview" class="project-summary">
       <h2>Project Overview</h2>
-      <p>Our senior design project, <strong>NetCommand</strong>, provides a web-based tool for configuring Cisco-like switches using a modern React + Flask stack. The platform allows users to assign ports, create VLANs, and access a simulated terminal — making network tasks easier and more intuitive.</p>
+      <p>
+        Our senior design project, <strong>NetCommand</strong>, provides a web-based tool for configuring Cisco-like switches using a modern React + Flask stack. The platform allows users to assign ports, create VLANs, and access a simulated terminal — making network tasks easier and more intuitive.
+      </p>
     </section>
 
-    <section class="media">
+    <section id="prototype" class="media">
       <h2>Current Prototype</h2>
       <img src="images/prototype_image.jpg" alt="Screenshot of NetCommand interface" />
       <video controls>
@@ -36,7 +40,11 @@
   </main>
 
   <footer>
+    <a href="#">Back to top ↑</a>
     <p>© 2025 Senior Design Team | Mississippi State University</p>
   </footer>
+  <div class="back-to-top">
+    <a href="#">↑ Back to top</a>
+  </div>  
 </body>
 </html>
